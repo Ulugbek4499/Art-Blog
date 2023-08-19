@@ -145,7 +145,29 @@ header {
     font-size: 1.2rem;
     color: var(--dark);
     border: none;
-    background-color: transparent;
+    background-color: transparent; /*transparent bu orqadagi fon bn bir xil qiladi */
     outline: none;
-    cursor: pointer;
+    cursor: pointer; /*Mishka olib borilganda qo'lchani point qilib ko'rsatadi*/
+}
+
+/* End of Header section */
+/* Start design styling */
+
+.design {
+    padding: 4.5rem 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 1rem 0;
+}
+
+.title h2 {
+    font-family: var(--Playfair);
+    font-size: 2.4rem;
+}
+
+.title p {
+    text-transform: uppercase;
+    padding: 0.6rem 0;
 }
